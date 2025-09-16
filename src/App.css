@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+html{
+  overflow-x: hidden;
+}
+
+:root{
+  --primary-color:#09090B;
+  --seconday-color:#141319;
+  --tertiary-color:#17171C;
+  /* --accent-color:#ff0080;
+  --background-color:#000;
+  --text-color:#fff;
+  --border-radius:10px;
+  --transition: all 0.3s ease-in-out; */
+}
+
+.sp-text{
+  background-image: conic-gradient(at top, #6366f1, #6366f1, #6366f1);
+background-clip: text;
+-webkit-background-clip: text;
+color: transparent;
+}
+
+.icon{
+  padding: 15px;
+  font-size: 20px;
+  border: 1px solid rgb(70, 70, 71);
+  border-radius: 10px;
+  background-color: var(--seconday-color);
+  cursor: pointer;
+}

@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* global styles */
+html.light body {
+  background-color: #ffffff;
+  color: #eeededef;
+  
+}
+
+
+html.dark body {
+  background-color: #1a1a1a;
+  color: #ffffff;
+}
+
+html.blue body {
+  background-color: #e0f2ff;
+  color: #78b3ee;
+}
+
+html.green body {
+  background-color: #e6f7e6;
+  color: #4fe01f91;
+}
+
+/* smooth transition */
+body {
+  transition: background-color 0.3s, color 0.3s;
+}
