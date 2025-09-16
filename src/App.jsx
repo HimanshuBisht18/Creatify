@@ -2,7 +2,8 @@ import React from 'react'
 import "./App.css"
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
-import Nopage from './pages/Nopage';
+import NoPage from "./pages/NoPage";
+
 
 const App = () => {
   return (
