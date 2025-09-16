@@ -39,7 +39,7 @@ const Home = () => {
   }
 
  const ai = new GoogleGenAI({
-  apiKey: import.meta.env.VITE_GEMINI_API_KEY
+  apiKey: "AIzaSyDVLs_SVHI-n0OuUq7H8RkVt3kcVCY5ns0"
 });
 
   async function getResponse() {
