@@ -5,7 +5,7 @@ import { RiSettings3Fill } from 'react-icons/ri';
 const themes = ['light', 'dark', 'blue', 'green'];
 
 const Navbar = () => {
-  const [theme, setTheme] = useState('light');
+  const [theme, setTheme] = useState('dark');
 
   // Load saved theme on mount
   useEffect(() => {
